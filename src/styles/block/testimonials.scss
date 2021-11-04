@@ -14,6 +14,11 @@
     width: 100%;
     grid-column: 2 / 4;
     border-radius: 50%;
+    transition: transform 300ms;
+
+    &:hover {
+      transform: scale(110%);
+    }
   }
 
   &__name {
